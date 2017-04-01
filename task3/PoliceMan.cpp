@@ -3,7 +3,7 @@
 
 
 CPoliceMan::CPoliceMan(std::string name, std::string departmentName)
-	:CPersonImpl<IPoliceMan>(move(name)), m_departmentName(move(departmentName))
+	:CPersonImpl<IPoliceMan>(name), m_departmentName(departmentName)
 {
 }
 

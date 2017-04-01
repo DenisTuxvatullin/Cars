@@ -7,7 +7,7 @@
 
 using namespace std;
 
-int _tmain(int argc, _TCHAR* argv[])
+int main()
 {
 	try
 	{
@@ -63,6 +63,7 @@ int _tmain(int argc, _TCHAR* argv[])
 		cout << "Logic_error: " << e.what() << endl;
 	}
 	
+	cin.get();
 	return 0;
 }
 

@@ -3,7 +3,7 @@
 
 
 CRacer::CRacer(std::string name, size_t award)
-	:CPersonImpl<IRacer>(move(name)), m_award(award)
+	:CPersonImpl<IRacer>(name), m_award(award)
 {
 }
 

@@ -16,6 +16,7 @@ enum MakeOfTheCar
 	LEXUS,
 	NISSAN,
 	INIFINITI,
+	LADA
 };
 
 template <typename Passenger>

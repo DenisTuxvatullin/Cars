@@ -4,8 +4,8 @@ template <typename Base>
 class CPersonImpl : public Base
 {
 public:
-	CPersonImpl(std::string &&name)
-		:m_name(move(name))
+	CPersonImpl(std::string &name)
+		:m_name(name)
 	{
 	}
 
